@@ -1,0 +1,1017 @@
+
+body{
+	background-color: #121212;
+	margin: 0;
+	height: auto;
+    font-family: 'Anton', sans-serif;
+	color: #fff;
+}
+
+/* HEADER */
+.main-heder{
+	/*background-color: #4682B4;*/
+	background-color: #58467D;
+	position: relative;
+}
+.conteiner{
+	width: 100%;
+	height: 90px;
+	margin: auto;
+	margin-left: 0px;
+
+	
+}
+.imgT{
+	width: 150px; height: 50px;
+	padding:5px; 
+	margin-left: 50px;
+	float: left;
+	margin-top: 15px;
+	border-radius: 10px;
+}
+.banner{
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 400px;
+}
+
+.bannerP{
+	background-color: red;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 400px;
+}
+.banner33{
+	width: 100%;
+	height: 400px;
+	position: absolute;
+	opacity: 0.8;
+}
+.bannerR{
+	background-size: 100px 100px;
+	width: 100%;
+	height: 80px;
+	background-color: #FFFAFA;
+}
+.imgT2{
+	width: 100%; height: 100%;
+	float: left;
+}
+.ulista  a{
+	color:#fff;
+	text-decoration: none;
+}
+.ulista{
+	width: 600px;
+}
+.ulista li{
+	list-style-type: none;
+	display: inline-block;
+	padding-right: 25px
+}
+.ulista a{
+	 text-decoration: none;
+}
+.divUser{
+	width: 30px;
+	float: right;
+	margin-top: -20px;
+}
+.divUser li{
+	list-style-type: none;
+	display: inline-block;
+	margin-top: -10px;
+	margin-left: -30px
+}
+.contenedorMenuDiv li a{
+	transition: .3s;
+	padding: 10px 15px;
+	border-radius :5px;
+	margin-left: -7px;
+
+
+}
+.contenedorMenuDiv li a:hover{
+	transition: .3s;
+	padding: 10px 15px;
+	text-decoration:underline; 
+	border-radius :5px;
+	margin-left: -7px;
+}
+.home{
+	color: #fff;
+}
+.divUser a{
+	color: white;
+	text-decoration: none;
+}
+.divUser img{
+	border: 1px solid #ffffff;
+	border-radius: 25px;
+	width: 35px;
+}
+.contenedorMenu{
+	width: 700px;
+	margin-left:100px;
+}
+.navMenu{
+	float: right;
+	margin-left: 300px;
+	margin-top: 21px;
+	width: 670px;
+}
+#carro{
+	position: absolute;
+	left: 91%;
+	top: 15%;
+	text-decoration: none;
+}
+#carro i{
+	width: 20px;
+	background-color:#58467D;
+	color:#fff;
+	text-decoration:none;
+	padding:0px 0px;
+	display:inline-block;
+}
+#carro a{
+	width: 70px;
+	background-color:#58467D;
+	color:#fff;
+	text-decoration:none;
+	padding:0px 0px;
+	display:inline-block;
+}
+.contenedorMenuDiv{
+	width: 850px;
+}
+/* HEADER */
+
+
+
+/* SECTION */
+.sectionCenter{
+	width: 100%;
+	height: auto;
+	display: block;
+	position: relative;
+	margin: auto;
+}
+.section{
+	padding-top: 10px;
+	width: 100%;
+	height: 100%;
+	display:inline;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.section2{
+	padding-top: 10px;
+	width: 100%;
+	height: 100%;
+	display:inline;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.article{
+	padding-top: 20px;
+	margin: auto;
+	width: 43%;
+}
+.history{
+	 text-align: center;
+	 font-size: 19px;
+}
+.botonC{
+	width: 500px;
+	margin: auto;
+}
+.masD{
+	width: 16%;
+	height: 30px;
+	margin-right: 50px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 2px solid #121212;
+	color: #000;
+	font-weight: bold;
+	border-radius: 5px;
+	position:absolute;
+	top: 295px;
+	height: 40px;
+	font-size: 20px;
+}
+.masD:hover{
+		/*box-shadow: 0px 0px 20px #4682B4,0px 0px 20px #4682B4;
+		width: 210px;
+		height: 40px;*/
+		background: #121212;
+		color:#fff;
+		
+}
+.suerteD{
+	width: 16%;
+	height: 30px;
+	border: 2px solid #121212;
+	color: #000;
+	font-weight: bold;
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.5);
+	position:absolute;
+	top: 295px;
+	left: 740px;
+	height: 40px;
+	font-size: 20px;
+
+}
+.suerteD:hover{
+		/*box-shadow: 2px 2px 20px #023B84,2px 2px 20px #023B84;
+		width: 210px;
+		height: 40px;*/
+		background: #121212;
+		color: #fff;
+		
+}
+.article{
+	margin-bottom: 40px;
+}
+.sonado{
+	margin-bottom: 10px;
+	text-align: left;
+}
+.historyS{
+	margin-left: 150px;
+	margin-bottom: 50px;
+	 text-align: left;
+	 font-size: 25px;
+}
+.articleC{
+	width: 250px;
+	height: 40px;
+	float: left;
+	margin-left: 50px;
+	display: inline-block;
+}
+.prod{
+	width: 90%; height: 100%;
+	float: left;
+	margin-left: 35%;
+	border: 2px solid #fff;
+}
+.section3{
+	padding-top: 10px;
+	width: 87%;
+	height: 100%;
+	display: inline;
+	position: relative;
+	display: flex;
+	justify-content: left;
+	margin-left: 8%;
+}
+.sectionP{
+	padding-top: 10px;
+	width: 87%;
+	height: 100%;
+	display: inline;
+	position: relative;
+	display: flex;
+	justify-content: left;
+	margin-left: 8%;
+}
+.celda{
+	width: 225px;
+	height: 225px;
+}
+.prodSem{
+	width: 100%; 
+	height: 100%;
+	float: left;
+
+	border: 2px solid #000;
+}
+.articleCSem{
+	width: 122px;
+	height: 40px;
+	float: right;
+	margin-right: 94px;
+	display: inline-block;
+}
+.parrafoSem{
+	text-align: left;
+	margin-left: 5px;
+	font-size: 15px;
+	width: 150px;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+.contPre{
+	width: 23px;
+	height: 34%;
+	float: right;
+	position: relative;
+}
+
+.contPre button{
+	width: 71px;
+	height: 20px;
+	border:1px solid #000;
+	border-radius: 5px;
+}
+
+.precio{
+	width: 50px;
+	height: 100%
+}
+.titPSem{
+	text-align: left;
+	margin-left: 5px;
+	font-size: 12px;
+	color: gray;
+	height: 40px;
+	margin-top: 0px;
+}
+.imagesSem{
+	width: 60px;
+	height: 60px;
+	padding-top: 18px;
+	margin-right: 10px;
+	display: inline-block;
+}
+.cuadroSem{
+	width: 287px;
+	height: 100%;
+	margin-right: -30px;
+	display: inline-block;
+}	
+/*-----------------------*/
+.egt{
+	display: block;
+	position: relative;
+	left: 10px;
+	width: 95%;
+	border-collapse:collapse;
+	border: none;
+
+}
+.egt td{
+	padding: 0;
+}
+.enter{
+	width: 10px;
+}
+.caja{
+	display: block;
+	position: relative;
+	float: left;
+	width: 220px;
+	height: 220px;
+}
+.cajaImg{
+	display: block;
+	width: 222px;
+}
+.bio{
+	position: absolute;
+display: block;
+width: 222px;
+left: 66%;
+top: 6%;
+}
+.bio img{
+	position: absolute;
+	display: block;
+	width: 391px;
+	left: -57%;
+	border-radius: 50%;
+	height: 223px;
+}
+.tabla{
+	position: absolute;
+	height: 100%;
+	float: right;
+	width: 410%;
+	left: 120%;
+	top:50%;
+}
+.cajaImgP{
+	display: block;
+	width: 220px;
+	position: absolute;
+}
+.tabla table tr td{
+	text-align: left;
+	width: 30%;
+}
+.canciones{
+	width: 100%;
+	height: 100%;
+}
+.tabla table tr td p{
+	width: 78px;
+}
+.discotec{
+	width: 95%;
+}
+.infoP{
+	display: block;
+	left: 23%;
+	top: 30%;
+	position: absolute;
+	width: 100px;
+	height: 80px;
+	float: right;
+}
+.infoP p{
+	display: block;
+	font-size: 17px;
+	width: auto;
+}
+.fechaP{
+	display: block;
+	left: 42%;
+	top: 30%;
+	position: absolute;
+	width: 100px;
+	height: 80px;
+	float: right;
+}
+.cajaImgP img{
+		display: block;
+
+	width: 100%;
+	height: 100%
+	border: 1px solid black;
+	position: relative;
+	border: 1px solid #fff;
+}
+.DivbotonP{
+	width: 64px;
+	height: auto;
+	float: left;
+	position: absolute;
+	top: 40%;
+	left: 35%;
+}
+.DivbotonP button{
+	border: 1px solid black;
+	border-radius: 5px;
+	height: 35px;
+	width: 98px;
+	float: right;
+	position: absolute;
+	top: 50%;
+	left: 439%;
+	color: #000;
+	background: #fff;
+	margin-top: 8px;
+}
+.cajaImg img{
+		display: block;
+
+	width: 217px;
+	height: 100%
+	border: 1px solid black;
+	position: relative;
+	border: 1px solid #fff;
+}
+.info{
+	display: block;
+	left: 30%;
+	top: 20%;
+	position: absolute;
+	width: 100px;
+	height: 80px;
+	float: right;
+}
+.info p{
+	display: block;
+	font-size: 20px;
+	width: 155px;
+}
+.Divboton{
+	width: 64px;
+	height: auto;
+	float: left;
+	position: absolute;
+	top: 40%;
+	left: 35%;
+}
+.carrito{
+	width: 163px;
+	height: 20px;
+	position: absolute;
+	top: 86px;
+}
+.espaciogenero{
+	height: 50px;
+}
+
+.Divboton button{
+	border: 1px solid black;
+	border-radius: 5px;
+	height: 35px;
+	width: 92px;
+	float: right;
+	position: absolute;
+	color: #000;
+	background: #fff;
+	margin-top: -10px;
+}
+
+/*-----------------------*/
+
+
+.titP{
+	text-align: left;
+	margin-left: 5px;
+	color: gray;
+	height: 40px;
+	margin-top: 0px;
+}
+.cuadro{
+	width: 240px;
+	height: 100%;
+	margin-right: 50px;
+	display: inline-block;
+}
+.images{
+	width: 155px;
+	height: 155px;
+	margin-right: 50px;
+	display: inline-block;
+}
+.cuadro a{
+	text-align: center;
+	text-decoration: none
+}
+.parrafo{
+	text-align: left;
+	margin-left: 5px;
+	font-size: 12px;
+	width: 150px;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+
+.espacio{
+	height: 150px;
+
+}
+.espacio2{
+	height: 60px;
+
+}
+
+/*PRoductos*/
+.productos{
+	padding-top: 10px;
+	width: 79%;
+	height: 100%;
+	display:inline;
+	position: relative;
+	display: flex;
+	justify-content: left;
+	margin-left: 150px;
+}
+.cajapro{
+	display: block;
+	position: relative;
+	float: left;
+	width: 270px;
+	height: 85px;
+}
+.cajaImgpro{
+	display: block;
+	width: 100px;
+}
+.cajaImgpro img{
+		display: block;
+
+	width: 70px;
+	height: 100%
+	border: 1px solid black;
+	position: relative;
+	border: 1px solid #fff;
+}
+.infopro{
+	display: block;
+	left: 35%;
+	top: 4%;
+	position: absolute;
+	width: 100px;
+	height: 69px;
+	float: right;
+}
+.infopro p{
+	display: block;
+	font-size: 12px;
+	width: 155px;
+}
+.Divbotonprp{
+	width: 64px;
+	height: auto;
+	float: left;
+	position: absolute;
+	top: 40%;
+	left: 35%;
+}
+.Divbotonpro button{
+	border: 1px solid black;
+	border-radius: 5px;
+	height: 19px;
+	width: 60px;
+	float: right;
+	position: absolute;
+	top: 10%;
+	left: 67%;
+	color: #000;
+	background: #fff;
+	margin-top: 8px;
+}
+
+/*info disco*/
+.infodisco .titImg{
+	margin: 20px;
+	position: relative;
+	height: 30%;
+}
+.infodisco .titImg img{
+	display: inline-block;
+	width: 300px;
+	position: absolute;
+	left: 60%;
+	top: 24px;
+	border-radius: 100%;
+
+}
+.infodisco .titImg h1{
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+	position: absolute;
+	top: 75px;
+}
+.infodisco .imgTab img{
+display: inline-block;
+width: 22%;
+position: absolute;
+top: 22%;
+left: 6%;
+border-radius: 10px;
+}
+.infodisco .imgTab{
+	margin-top: 0px;
+	position: relative;
+	display: inline-block;
+	height: 670px;
+	width: 100%
+}
+.infodisco .imgTab div{
+margin-top: 25%;
+width: 65%;
+display: inline-block;
+left: 29%;
+position: absolute;
+}
+.infodisco .imgTab div ul{
+width: 97%;
+text-decoration: none;
+display: block;
+position: relative;
+left: 3%;
+bottom: 160px;
+background-color: #262626;
+border-radius: 15px;
+border: 1px solid gray;
+padding: 2px 0px 3px 20px;
+}
+.infodisco .imgTab div ul:hover{
+width: 97%;
+text-decoration: none;
+display: block;
+position: relative;
+left: 3%;
+bottom: 160px;
+background-color: gray;
+color: #000;
+transition: .1s;
+border-radius: 15px;
+border: 1px solid gray;
+padding: 2px 0px 3px 20px;
+}
+.infodisco .imgTab div ul li{
+	width: 24%;
+	display: inline-block;
+	text-align: left;
+	font-size: 13px;
+}
+.infodisco .imgTab div ul li button {
+	width: 70px;
+	height: 22px;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	background-color: #fff;
+}
+.infodisco .imgTab div ul li button:hover {
+
+	border: 1px solid #fff;
+	background-color: #084794;
+}
+#titulo li{
+	font-size: 17px;
+	text-align: left;
+	width: 24%;
+	padding: 0px 0px 0px 0px;
+
+}
+.ventadis {
+    width: 16%;
+    display: inline-block;
+    position: absolute;
+    top: 75%;
+    left: 9%;
+    height: 7.5%;
+    border: 1px solid gray;
+    background-color: #fff;
+    border-radius: 9px;
+}
+.ventadis:hover{
+	background-color: #084794;
+
+}
+
+
+
+
+
+
+
+.foot{
+	background-color: #58467D;
+	overflow: hidden;
+	clear: both;
+	margin: 0;
+	position: relative;
+	display: block;
+	top: 200%;
+	width: 100%;
+}
+.dir{
+	width: 100%;
+	margin: auto;
+	float: left;
+}
+.dat{
+	margin-left: 10%;
+}
+.dir div{
+	float: left;
+}
+.lu{
+	 color: white;
+	 list-style-type: none;
+}
+.redes{
+	 float: right;
+	 margin-left: 50%;
+	 padding-top: 25px;
+	 padding-right:20px;
+}
+.fb{
+	display: inline-block; 
+	margin-right: 15px;
+}
+.tw{
+	 display: inline-block;
+}
+.dismet{
+	margin-top: 20%;
+}
+
+
+
+
+nav ul{		
+	list-style:none;
+}
+			
+.nav > li {
+	float:left;
+}
+
+.nav li a {
+	background-color:#58467D;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 25px;
+	display:block;
+}
+
+.nav >li:hover {
+	/*Falta cambiar color*/
+	text-decoration: underline;
+}
+.des > li:hover{
+	text-decoration: underline;
+
+}
+
+.nav li ul {
+	display:none;
+	position:absolute;
+	width: 130px;
+	text-align: left;
+}
+
+.nav li i{
+	color: white;
+	position: absolute;
+	padding-top: 9px;
+	margin: 3px 8px;
+}
+.casa{
+	color: white;
+	position: absolute;
+	padding-top: 9px;
+	margin: 0 1px;
+}
+
+.nav li:hover > ul {
+	display:block;
+	position:absolute;
+	z-index: 2;
+	margin-left: -41px;
+	min-width: 100px;	
+}
+.sectionCarrito h1{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	text-align: center;
+}
+.carritoTab{
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+.comprarCar {
+width: 16%;
+display: inline-block;
+position: absolute;
+top: 140%;
+left: 72.5%;
+height: 7%;
+border: 1px solid gray;
+background-color: #fff;
+border-radius: 9px;
+}
+.comprarCar:hover{
+	background-color: #084794;
+
+}
+.espaciocar{
+	height: 300px;
+}
+.carritoTab ul{
+	display: inline-block;
+	width: 97%;
+	margin-left: 7%;
+}
+.carritoTab ul li{
+	display: inline-block;
+	text-decoration: none;
+	width: 20%;
+}
+.carritoTab ul > div{
+	display: inline-block;
+	text-decoration: none;
+	width: 60%;
+	text-align: left;
+	position: relative;
+	bottom: 75px;
+}
+.carritoTab ul li img{
+	display: inline-block;
+	width: 65%;
+	position: relative;
+}
+.carritoTab ul li p{
+	display: inline-block;
+	text-decoration: none;
+	width: 100%;
+
+}
+
+/*--------login------*/
+.espacioFor{
+	height: 235px;
+}
+.sectionLogin{
+	padding-top: 50px;
+	width: 800px;
+	margin: auto;
+}
+.divform{
+	width: 450px;
+	margin: auto;
+	text-align: center;
+}
+.divform img{
+	width: 100px;
+	border: 1px solid #008CBD;
+	 padding:9px;
+	border-radius: 200px;
+	margin-left: 80px;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+.divform .log{
+	width: 100px;
+	border: 1px solid #008CBD;
+	 padding:9px;
+	border-radius: 200px;
+	margin-left: 0px;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+.formu{
+	text-align: center;
+	padding-top: 15px;
+}
+.radios{
+	width: 50%;
+	margin-left: 25%;
+	margin-bottom: 2%;
+}
+.formu .inputs{
+	margin:10px 0 15px;
+	text-align: right;
+}
+.imputs > label{
+	display: block;
+	margin-bottom: 7px;
+}
+.inputs > input{
+	width: 66%;
+	display: inline-block;
+	height:22px;
+	border-radius: 5px;
+	border: 1px solid#cccccc;
+	margin-bottom: 10px;
+}
+.seleccion{
+	text-align: center;
+	width: 100%;
+	margin-left: 10%;
+}
+.dates{
+	position: relative;
+	margin-bottom: 1%;
+	display: inline-block;
+	width: 32%;
+	border-radius: 3px;
+	border: 1px solid #fff;
+}
+.sele{
+	margin-right: 4%;
+
+}
+.chec{
+	width: 50%;
+	margin-left: 19.5%;
+	margin-bottom: 1%;
+}
+.entrar{
+	border-radius: 5px;
+	margin-top: 10%;
+	padding: 10px 25px; 
+	background-color: #174E9B;
+	color: #ffffff;
+	border: none;
+
+}
+.crear{
+	display:absolute;
+	width: 40%;
+	border-radius: 5px;
+	margin-top: 5%;
+	margin-left: 20%;
+	padding: 10px 25px; 
+	background-color: #174E9B;
+	color: #ffffff;
+	border: none;
+
+}
+.regis{
+	border-radius: 5px;
+	margin-top: 10%;
+	color: #ffffff;
+	border: none;
+}
+.entrar:hover{
+	padding: 11px 26px;
+	cursor: pointer;
+}
